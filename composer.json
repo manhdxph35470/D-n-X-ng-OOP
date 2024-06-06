@@ -1,0 +1,21 @@
+{
+    "name": "manh/xuong-oop",
+    "autoload": {
+        "psr-4": {
+            "Manh\\XuongOop\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "manhdxph35470",
+            "email": "manhdxph35470@fpt.edu.vn"
+        }
+    ],
+    "require": {
+        "bramus/router": "~1.6",
+        "eftec/bladeone": "^4.13",
+        "doctrine/dbal": "^4.0",
+        "rakit/validation": "^1.4",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
