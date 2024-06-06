@@ -1,6 +1,6 @@
 <?php
 
-namespace Ductong\XuongOop\Commons;
+namespace Manh\XuongOop\Commons;
 
 use eftec\bladeone\BladeOne;
 
