@@ -165,6 +165,7 @@
                             </div>
                         </div>
                     </div>
+                    
                 </div>
                 <div class="white_card_body mt_30">
                     <div id="bar1" class="barfiller">

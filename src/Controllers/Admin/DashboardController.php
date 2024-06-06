@@ -1,9 +1,11 @@
 <?php
 
-namespace Ductong\XuongOop\Controllers\Admin;
+namespace Manh\XuongOop\Controllers\Admin;
 
-use Ductong\XuongOop\Commons\Controller;
-use Ductong\XuongOop\Commons\Helper;
+use Manh\XuongOop\Commons\Controller;
+use Manh\XuongOop\Commons\Helper;
+
+
 
 class DashboardController extends Controller
 {

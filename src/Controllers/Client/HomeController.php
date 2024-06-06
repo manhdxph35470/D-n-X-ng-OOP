@@ -1,16 +1,17 @@
 <?php 
 
-namespace Ductong\XuongOop\Controllers\Client;
+namespace Manh\XuongOop\Controllers\Client;
 
-use Ductong\XuongOop\Commons\Controller;
+use Manh\XuongOop\Commons\Controller;
 
 class HomeController extends Controller
 {
     public function index() {
-        $name = 'DucTV44';
+        $name = 'MANHDXPH35470';
 
         $this->renderViewClient('home', [
             'name' => $name
         ]);
     }
+    
 }

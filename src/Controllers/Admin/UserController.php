@@ -1,9 +1,9 @@
 <?php
 
-namespace Ductong\XuongOop\Controllers\Admin;
+namespace Manh\XuongOop\Controllers\Admin;
 
-use Ductong\XuongOop\Commons\Controller;
-use Ductong\XuongOop\Models\User;
+use Manh\XuongOop\Commons\Controller;
+use Manh\XuongOop\Models\User;
 use Rakit\Validation\Validator;
 
 class UserController extends Controller

@@ -1,8 +1,8 @@
 <?php 
 
-namespace Ductong\XuongOop\Controllers\Client;
+namespace Manh\XuongOop\Controllers\Client;
 
-use Ductong\XuongOop\Commons\Controller;
+use Manh\XuongOop\Commons\Controller;
 
 class ProductController extends Controller
 {
@@ -10,6 +10,7 @@ class ProductController extends Controller
         echo __CLASS__ . '@' . __FUNCTION__;
     }
 
+    
     public function detail($id) {
         echo __CLASS__ . '@' . __FUNCTION__ . '@' . $id;
     }

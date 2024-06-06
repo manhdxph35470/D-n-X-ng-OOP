@@ -1,13 +1,14 @@
 <?php
 
-namespace Ductong\XuongOop\Models;
+namespace Manh\XuongOop\Models;
 
-use Ductong\XuongOop\Commons\Model;
+use Manh\XuongOop\Commons\Model;
 
 class User extends Model 
 {
     protected string $tableName = 'users';
 
+    
     public function findByEmail($email)
     {
         return $this->queryBuilder

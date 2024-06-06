@@ -1,10 +1,10 @@
 <?php 
 
-namespace Ductong\XuongOop\Controllers\Client;
+namespace Manh\XuongOop\Controllers\Client;
 
-use Ductong\XuongOop\Commons\Controller;
-use Ductong\XuongOop\Commons\Helper;
-use Ductong\XuongOop\Models\User;
+use Manh\XuongOop\Commons\Controller;
+use Manh\XuongOop\Commons\Helper;
+use Manh\XuongOop\Models\User;
 
 class LoginController extends Controller
 {
@@ -15,6 +15,7 @@ class LoginController extends Controller
         $this->user = new User();
     }
 
+    
     public function showFormLogin() {
         auth_check();
 

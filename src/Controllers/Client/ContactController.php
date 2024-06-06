@@ -1,8 +1,8 @@
 <?php 
 
-namespace Ductong\XuongOop\Controllers\Client;
+namespace Manh\XuongOop\Controllers\Client;
 
-use Ductong\XuongOop\Commons\Controller;
+use Manh\XuongOop\Commons\Controller;
 
 class ContactController extends Controller
 {
@@ -13,4 +13,5 @@ class ContactController extends Controller
     public function store() {
         echo __CLASS__ . '@' . __FUNCTION__;
     }
+    
 }

@@ -1,8 +1,9 @@
 <?php 
 
-namespace Ductong\XuongOop\Controllers\Client;
+namespace Manh\XuongOop\Controllers\Client;
 
-use Ductong\XuongOop\Commons\Controller;
+use Manh\XuongOop\Commons\Controller;
+
 
 class AboutController extends Controller
 {
